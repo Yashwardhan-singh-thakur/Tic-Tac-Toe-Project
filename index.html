@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Tic Tac Toe</h1>
+      <div class="msg-container"></div>
+      <a href="http://127.0.0.1:5500/"
+        ><button class="new-btn btn">New Game</button></a
+      >
+      <div class="container">
+        <div class="game border">
+          <div>
+            <table>
+              <tr>
+                <thead>
+                  <th>Player "X"</th>
+                </thead>
+                <td class="pX">"0"</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+        <div class="game">
+          <div>
+            <table>
+              <tr>
+                <thead>
+                  <th>Player "O"</th>
+                </thead>
+                <td class="pO">"0"</td>
+              </tr>
+            </table>
+            <button class="btn point-btn">Reset Points</button>
+          </div>
+        </div>
+      </div>
+      <div class="reset-con">
+        <button class="xbtn btn">Turn X</button
+        ><button class="reset-btn btn">Reset Game</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
