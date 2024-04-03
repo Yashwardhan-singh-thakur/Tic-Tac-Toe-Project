@@ -60,9 +60,9 @@ let checkWinner = () => {
           winO++;
           pO.innerText = ` "${winO}"`;
         }
-        if (winX === 5) {
+        if (winX === 3) {
           msgCon.innerText = `Tic Tac toe Master Player"${pos1}"`;
-        } else if (winO === 5) {
+        } else if (winO === 3) {
           msgCon.innerText = `Tic Tac toe Master Player"${pos1}"`;
         } else if (idx === 9) {
           msgCon.innerText = `DRAW`;
