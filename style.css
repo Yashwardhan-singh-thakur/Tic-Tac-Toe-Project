@@ -83,7 +83,7 @@ td {
   top: 35vmin;
 }
 
-@media (min-width: 268px) and (max-width: 1286px) {
+@media (min-width: 50px) and (max-width: 1286px) {
   .box {
     height: 9vmin;
     width: 9vmin;
